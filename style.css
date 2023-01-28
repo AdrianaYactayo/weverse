@@ -1,14 +1,14 @@
 :root {
     --white: #FFFFFF;
     --black: #000000;
-    --very-light-pink: #C7C7C7;
+    --very-light-pink: #b8b8b8;
     --text-input-field: #F7F7F7;
     --hospital-green: #ACD9B2;
     --weverse:#0ed5bc;
     --fondo-verse:#f7f7fa;
-    --sm: 14px;
+    --sm: 12px;
     --md: 16px;
-    --lg: 18px;
+    --lg: 28px;
   }
 
   body {
@@ -123,3 +123,50 @@
 .logo{
     width: 150px;
 }
+
+.main-message{
+    font-size: var(--lg);
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+.main-footer{
+    
+}
+
+.main-footer ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+   
+}
+
+
+
+.main-footer ul li a {
+    color: #777575;
+    text-decoration: none;
+    padding: 5px;
+    font-size: var(--sm);
+
+
+  }
+footer{
+    background: var(--fondo-verse);
+    padding: 10px;
+    border: solid  var(--very-light-pink) 1px;
+    border-style: solid none;
+}
+
+.company{
+    padding: 10px;
+    text-align: center;
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+}
+
