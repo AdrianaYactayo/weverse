@@ -1,0 +1,125 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --weverse:#0ed5bc;
+    --fondo-verse:#f7f7fa;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .main-container{
+    background: var(--fondo-verse);
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: Space-between;
+    align-items: center;
+    padding: 10px 25px;
+    height: 60px;
+   
+  }
+  .navbar-left{
+   cursor: pointer;
+  }
+
+  .navbar-right{
+    cursor: pointer;
+  }
+
+  .submit{
+    background-color: var(--weverse);
+    font-size: var(--md);
+    font-weight: bold;
+    color: var(--white);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .sub-main-container{
+    background: var(--black);
+    height: 300px;
+  }
+
+
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 26px;
+    place-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .product-card {
+    width: 240px;
+  }
+  .product-card img {
+    width: 240px;
+    height: 230px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+  }
+  .product-card .product-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 50px;
+   padding-top: 10px;
+   margin-top: -15px;
+   position: relative;
+   border-radius: 0px 0px 20px 20px;
+
+   background: var(--white);
+
+   width: 240px;
+  }
+  .product-card .product-info figure {
+    position: absolute;
+    margin-left: 42px;
+    margin-bottom: 85px;
+    background: var(--white);
+    border-radius: 50%;
+    
+  }
+  .product-card .product-info figure img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid  var(--fondo-verse) 1px;
+  }
+
+  .product-card .product-info div p:nth-child(1) {
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+
+
+
+.sub-main-container img{
+    width: 531px;
+    height: 299px;
+  
+}
+
+.sub-main-container{
+    text-align: center;
+}
+ 
+.logo{
+    width: 150px;
+}
